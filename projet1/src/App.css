@@ -1,0 +1,97 @@
+
+.App {
+    text-align: center;
+    background-color: black;
+}
+
+
+.Viewer-Container {
+    width: 100%;
+    align-self: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.viewport-element {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #20a5d6;
+    border-radius: 10px;
+}
+
+.ToolbarSection {
+    padding-inline-start: 10px;
+    padding-top: 10px;
+}
+
+.App-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(assets/large1.png);
+    background-size: 50px 50px;
+    display: inline-block;
+    transform: translateY(20%);
+}
+
+.App-header {
+    background-color: rgb(13, 36, 59);
+    color: white;
+    padding-left: 20px;
+    align-content: flex-start;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+
+
+.App-link {
+    color: #7861fb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.toolbar-button {
+    width: 20px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  /* Add the following CSS styles to your stylesheet for improved table appearance
+/*You can customize the styles based on your preferences
+
+/* Example table styles */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
